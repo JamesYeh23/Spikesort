@@ -1,6 +1,6 @@
 from tkinter import filedialog
-from NexFileHeaders import *
-from NexFileData import *
+from .NexFileHeaders import *
+from .NexFileData import *
 from typing import BinaryIO
 import json
 
