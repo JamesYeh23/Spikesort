@@ -7,8 +7,8 @@ with open('requirements.txt') as f:
 setup(
     name='nex-sdk-jy',
     version='0.1.0',
-    packages=['nex_sdk'],
-    # packages=find_packages()
+    # packages=['nex_sdk'],
+    packages=find_packages(),
     install_requires=requirements,  
     description='A Python toolkit for working with Nex files',
     long_description=open('README.md').read(),
